@@ -23,5 +23,5 @@ function addBinary(a,b) {
 
     divisor(sumOfNum)
   }
-  return binaryNumArray.concat().join('')
+  return binaryNumArray.reverse().concat().join('')
 }
