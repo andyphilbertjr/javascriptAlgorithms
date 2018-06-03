@@ -5,6 +5,7 @@
 
 
 
+/*
 function addBinary(a,b) {
   let sumOfNum = a + b
   let binaryNumToConv = sumOfNum%2
@@ -24,4 +25,9 @@ function addBinary(a,b) {
     divisor(sumOfNum)
   }
   return binaryNumArray.reverse().concat().join('')
+}
+*/
+
+function addBinary(a,b) {
+  return (a + b).toString(2)
 }
